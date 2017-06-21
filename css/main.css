@@ -165,3 +165,38 @@ a.button:hover {
   letter-spacing: 0.1px;
   font-size: 14px;
 }
+
+@media (max-width:750px) {
+
+  .search-box input{
+    width: 75%;
+  }
+
+}
+
+@media (max-width:474px) {
+  * {
+    font-size: 12px;
+  }
+  .profile-img {
+    display: none;
+  }
+
+  .top-navigation {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+}
+
+@media (max-width:595px) {
+  ul.left {
+    width: 60%;
+    margin: 10px auto;
+    float: none;
+
+  }
+
+  .right-site-links{
+    display: none;
+  }
